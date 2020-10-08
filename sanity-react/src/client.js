@@ -1,7 +1,7 @@
 import sanityClient from "@sanity/client";
 
 export default sanityClient({
-  projectId: "Your Project ID Here", // find this at manage.sanity.io or in your sanity.json
-  dataset: "production", // this is from those question during 'sanity init'
+  projectId: "erq4amvv", // find this at manage.sanity.io, run `sanity init` to initialize
+  dataset: "production", // this is from when we answered those question from 'sanity init'
   useCdn: true,
 });
